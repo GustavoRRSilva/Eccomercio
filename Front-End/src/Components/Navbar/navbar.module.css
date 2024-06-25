@@ -1,0 +1,47 @@
+.logo img {
+  @apply w-20;
+}
+
+.ladoEsquerdo ,
+.ladoDireito {
+  @apply text-white flex gap-4 items-center font-normal text-xl ;
+}
+
+.ladoEsquerdo a, .ladoDireito {
+    @apply max-md:hidden
+}
+
+.ladoDireito img,
+.inputSearch img {
+  @apply w-8;
+}
+.logo {
+  @apply  max-md:p-4 md:mx-2;
+}
+.navbar {
+  @apply flex justify-between max-md:flex-wrap;
+}
+.inputSearch input {
+  @apply bg-inherit border-2 border-gold outline-none p-2 rounded;
+}
+
+.btnNav svg {
+  @apply w-10 h-10 my-auto;
+}
+
+.inputSearch {
+  @apply relative;
+}
+.inputSearch img {
+  @apply absolute  top-3 right-2 w-6;
+}
+
+.btnNav {
+  @apply block md:hidden text-white flex justify-end p-2 w-1/2;
+}
+.navMobile {
+  @apply block md:hidden flex items-center flex-col text-white text-xl gap-8 justify-center m-auto w-screen pb-4 mt-4;
+}
+.navMobile li:focus {
+  @apply bg-gold;
+}
