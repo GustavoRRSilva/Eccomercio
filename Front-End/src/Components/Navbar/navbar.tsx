@@ -3,10 +3,10 @@ import styles from "./navbar.module.css";
 import { IoIosClose } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
 import Link from "next/link";
-import img1 from "@/Logo.png";
+
 import Image from "next/image";
-import logo from "@/public/Logo.png";
-export default function first() {
+
+export default function Nav() {
   const content = (
     <div className={styles.navMobile}>
       <span className={styles.inputSearch}>
@@ -37,9 +37,9 @@ export default function first() {
       <nav className={styles.nav}>
         <ul className={styles.navbar}>
           <div className={styles.ladoEsquerdo}>
-          <li className={styles.logo}>
-            <Image src="/logo.svg" width="20" height="20" alt="img logo" />
-          </li>
+            <li className={styles.logo}>
+              <Image src="/logo.svg" width="20" height="20" alt="img logo" />
+            </li>
             <Link href="/">
               <li>Home</li>
             </Link>
