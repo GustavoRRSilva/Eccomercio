@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/Components/Navbar/navbar";
-import img1 from "@/Logo.png"
-
+import img1 from "@/Logo.png";
+import Slider from "@/Components/Slider/slider";
 export default function Home() {
   return (
     <>
@@ -21,7 +21,8 @@ export default function Home() {
       <main>
         <Navbar />
         <div className={styles.faixaGold}></div>
+        <Slider />
       </main>
-      </>
+    </>
   );
 }

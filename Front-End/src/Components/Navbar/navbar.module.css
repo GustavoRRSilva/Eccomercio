@@ -40,7 +40,7 @@
   @apply block md:hidden text-white flex justify-end p-2 w-1/2;
 }
 .navMobile {
-  @apply block md:hidden flex items-center flex-col text-white text-xl gap-8 justify-center m-auto w-screen pb-4 mt-4;
+  @apply block md:hidden flex items-center flex-col text-white text-xl gap-8 justify-center m-auto  pb-4 mt-4;
 }
 .navMobile li:focus {
   @apply bg-gold;

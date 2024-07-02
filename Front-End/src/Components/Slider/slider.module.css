@@ -1,0 +1,47 @@
+.swiperSlide img {
+  width: 30%;
+
+  @apply max-sm:w-10/12 max-sm:max-w-4xl max-sm:!max-w-44;
+}
+
+.swiper {
+  @apply py-10 px-2 max-md:py-0 max-md:px-0 lg:container m-auto max-lg:px-4 max-lg:py-2 text-gold;
+}
+
+.swiperSlide{
+  @apply mt-8
+}
+
+.swiperSlide:nth-child(1), .swiperSlide:nth-child(2) {
+  @apply flex  px-20 items-center justify-center max-sm:flex max-sm:flex-col;
+}
+
+.swiper div:last-child{
+  @apply max-sm:mb-10
+ 
+}
+
+.textAndButton {
+  @apply flex flex-col text-white gap-4 max-sm:order-4;
+}
+
+.textAndButton p {
+  @apply text-4xl 
+  max-lg:text-3xl 
+  max-md:text-2xl
+  max-sm:text-base max-sm:text-center;
+}
+
+.textAndButton h2 {
+  @apply text-5xl w-7/12 font-semibold 
+  max-lg:text-4xl max-lg:w-8/12 
+  max-md:text-3xl
+  max-sm:text-xl max-sm:m-auto;
+}
+
+.textAndButton button {
+  @apply bg-gold w-2/6 py-4 rounded-sm font-bold text-2xl mt-20 
+  max-lg:text-xl max-lg:w-2/6 max-lg:mt-10 
+  max-md:text-lg max-md:mt-5 max-md:py-2 
+  max-sm:m-auto max-sm:w-4/6
+}
